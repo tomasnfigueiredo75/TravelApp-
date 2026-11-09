@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "TravelApp",
+    "slug": "travelapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "travelapp",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "pt.travelapp.mobile"
+    },
+    "android": {
+      "package": "pt.travelapp.mobile",
+      "permissions": [
+        "NOTIFICATIONS"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#2F7D5B",
+          "defaultChannel": "travel-reminders"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "icon": "./assets/app-icon.png",
+    "splash": {
+      "image": "./assets/app-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F3EE"
+    }
+  }
+}
