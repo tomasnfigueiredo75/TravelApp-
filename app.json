@@ -25,16 +25,19 @@
           "color": "#2F7D5B",
           "defaultChannel": "travel-reminders"
         }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/app-icon.png",
+          "imageWidth": 200,
+          "backgroundColor": "#F7F3EE"
+        }
       ]
     ],
     "experiments": {
       "typedRoutes": true
     },
-    "icon": "./assets/app-icon.png",
-    "splash": {
-      "image": "./assets/app-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#F7F3EE"
-    }
+    "icon": "./assets/app-icon.png"
   }
 }
